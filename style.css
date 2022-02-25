@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #00bbf9;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6c757d;
+    
+    
+}
+.topNavBanner{
+    
+    flex-grow: 1;
+}
+.navOne{
+    /* background-color: brown; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navOne div{
+    display: flex;
+}
+.navOneTop{
+    flex-grow: 1;
+    align-items: center;
+}
+.navOneTop a{
+    text-decoration: none;
+    color: #f94144;
+    
+    margin-bottom: 0px;
+
+}
+#idContact{
+    background-color: #52b788;
+    border: .5px solid #52b788;
+    border-radius: 20px;
+}
+.navOneTop a h1{
+    font-family: 'Syne Tactile', cursive;
+}
+.navOne div a img{
+    margin: 10px;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navList li a{
+    text-decoration: none;
+    margin: 0 12px;
+    color: black;
+}
+.navList li:hover{
+    color: tomato;
+    background-color: #52b788;
+    border: 0px solid #52b788;
+    border-radius: 20px;
+}
+.navTwo{
+    /* background-color: blueviolet; */
+    width: 15%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formNav button{
+    background-color: tomato;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+main:focus-within{
+     background-color: #b6ccfe;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.topi input,.topi select{
+    margin: 5px ;
+    padding: 5px 50px;
+}
+.royel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.royel button{
+    width: 100px;
+    margin: 10px;
+}
+.royel button:hover{
+    /* color: #52b788; */
+    background-color: #adb5bd;
+    border: 2px solid #adb5bd;
+    border-radius: 5px;
+}
+legend{
+    text-align: center;
+    font-size: 40px;
+}
+main{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

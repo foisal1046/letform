@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>static</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topNavBanner navOne">
+                <div class="navOneTop">
+                    <a href="#">
+                        <img src="html.png" alt="image">
+                    </a>
+                    <a href="#">
+                        <h1>S<span>tAT</span>iC</h1>
+                    </a>
+                </div>
+                <div class="navOneBot">
+                   <ul class="navList">
+                       <li><a href="#">Home</a></li>
+                       <li><a href="https://sites.google.com/diu.edu.bd/shagors-portfolio/home" target="_blank">About</a></li> 
+                       <li><a href="https://github.com/foisalNft" target="_blank">Coding</a></li>
+                       <li><a href="https://sites.google.com/diu.edu.bd/makemyticket/home" target="_blank">Resource</a></li>
+                       <li id="idContact"><a href="#" >Contact</a></li>
+                   </ul>
+                </div>
+            </div>
+            <div class="topNavBanner navTwo" >
+                <form action="https://www.google.com/search?" class="formNav">
+                    <input type="text" placeholder="search ..." class="inputno" name="q">
+                    <button type="submit">go</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="topSection">
+            <div class="topi">
+                <form id="form" action="#" method="get" onsubmit="cheekForm()">
+                    <fieldset>
+                        <legend>EVOKE!</legend>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" placeholder="name" id="name">
+                        <label for="email">Mail Address</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+                        <label for="region">Region</label>
+
+                        <select name="region" id="region">
+                            <option value="dhaka">Dhaka</option>
+                            <option value="barishal">Barishal</option>
+                            <option value="rajshahi">Rajshahi</option>
+                            <option value="syhlet">Syhlet</option>
+                            <option value="chitagong">Chitagong</option>
+                        </select>
+
+                        <label for="password">Pass Code</label>
+                        <input type="password" name="password" id="password" placeholder="password">
+                        <div class="royel"><button type="submit" ><a>SEND</a></button></div>
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
